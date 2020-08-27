@@ -76,3 +76,17 @@ console.log('--------------')
 for(let fruta of vetor1) {
     console.log(fruta)
 }
+
+console.log('--------------')
+
+// Forma 3: forEach()
+// O argumento do forEach() é uma função que recebe
+// cada elemento do vetor para fazer algo com ele
+
+// Argumetno como arrow function
+vetor1.forEach(fruta => console.log(fruta))
+
+// Argumetno como função tradicional
+vetor1.forEach(function(fruta) {
+    console.log(fruta)
+})
