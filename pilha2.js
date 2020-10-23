@@ -1,4 +1,4 @@
-const Stack = require('./lib/Stack.js')
+const Stack = require('./lib/Stack2')
 
 let pilha = new Stack()
 
