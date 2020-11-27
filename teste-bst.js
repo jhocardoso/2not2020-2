@@ -64,26 +64,22 @@ arvore.inOrderTraversal(d => vet.push(d))
 console.log('Em-ordem:', vet)
 
 // Caso 2a: exlusão de um nodo grau 1 com subárvore à esquerda
-/*
 arvore.remove(70)
 vet = []
 arvore.inOrderTraversal(d => vet.push(d))
-console.log('Em-ordem:', vet)*/
+console.log('Em-ordem:', vet)
 
 // Caso 2b: exclusão de um nodo grau 1 com subárvore à direita
-/*
 arvore.remove(6)
 vet = []
 arvore.inOrderTraversal(d => vet.push(d))
 console.log('Em-ordem:', vet)
-*/
 
 // Caso 3: exclusão de um nodo grau 2
-/*
 arvore.remove(59)
 vet = []
 arvore.inOrderTraversal(d => vet.push(d))
-console.log('Em-ordem:', vet)*/
+console.log('Em-ordem:', vet)
 
 arvore.remove(33) // raiz
 vet = []
@@ -92,6 +88,7 @@ console.log('Em-ordem:', vet)
 
 // Verificando qual número passou a ocupar a raiz fazendo 
 // um percurso PRÉ-ORDEM, na qual a raiz é o primeiro valor que aparece
+
 vet = []
 arvore.preOrderTraversal(d => vet.push(d))
 console.log('Pré-ordem:', vet)
